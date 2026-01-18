@@ -1,7 +1,7 @@
 #include <iostream>
 #include "ListLinked.h"
 
-int main(){
+int main() {
     std::cout << std::boolalpha; // configuramos cout para mostrar true/false en lugar de 0/1.
 
     ListLinked<int> list;
@@ -83,5 +83,5 @@ int main(){
     } catch (std::out_of_range &e){
         std::cout << "l.remove(3) => std::out_of_range: " << e.what() << std::endl; 
     }
-
+return 0;
 }
