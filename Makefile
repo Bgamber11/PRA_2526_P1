@@ -1,3 +1,5 @@
+all: bin/testListArray bin/testNode bin/testListLinked bin/testPoint2D bin/testCircle bin/testRectangle bin/testSquare bin/testDrawing
+
 bin/testListArray: testListArray.cpp ListArray.h List.h
 	mkdir -p bin
 	g++ -o bin/testListArray testListArray.cpp ListArray.h
